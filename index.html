@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="main-1">
+            <form action="#">
+                <div class="form-group">
+                    <label for="first">First Name:</label>
+                    <input type="text" class="form-control" id="first" placeholder="First Name..." value="" min="2" max="24" required>
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="last">Last Name:</label>
+                    <input type="text" class="form-control" id="last" placeholder="Last Name..." value="" min="2" max="24" required>
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="add">Address:</label>
+                    <input type="text" class="form-control" id="add" placeholder="Address..." value="" min="2" max="50" required>
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="pin">Pincode:</label>
+                    <input type="text" class="form-control" id="pin" placeholder="Pincode..." value="" min="2" max="10" required>
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="gen">Gender:</label>
+                    <input type="text" class="form-control" id="gen" placeholder="Gender..." value="" min="2" max="15" required>
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="choise-food">Food:</label>
+                    <select name="food" id="choise-food" required>
+                        <option>select</option>
+                        <option value="Biriyani">Biriyani</option>
+                        <option value="Parota">Parota</option>
+                        <option value="Idly or Dosa">Idly or Dosa</option>
+                        <option value="Veg Meals">Veg Meals</option>
+                        <option value="Fish fry">Fish fry</option>
+                    </select>
+
+                    <select name="food" id="choise-food" required>
+                        <option>select</option>
+                        <option value="Biriyani">Biriyani</option>
+                        <option value="Parota">Parota</option>
+                        <option value="Idly or Dosa">Idly or Dosa</option>
+                        <option value="Veg Meals">Veg Meals</option>
+                        <option value="Fish fry">Fish fry</option>
+                    </select>
+                    
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="state">State:</label>
+                    <input type="text" class="form-control" id="state" placeholder="State..." value="" min="2" max="15" required>
+                </div><b></b>
+
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" class="form-control" id="country" placeholder="Country..." value="" min="2" max="15" required>
+                </div><b></b>
+
+                <button type="submit" id="button" class="btn btn-primary">Submit</button>
+
+            </form>
+
+        </div>
+        <div class="spans">
+            <div id="main-2">
+                <div id="one">
+                    <span class="spanChild"><b>First Name:</b></span>
+                    <span class="firstChild" id="span1"></span>
+
+                </div>
+                <div id="two">
+                    <span ><b>Last Name:</b></span>
+                    <span id="span2"></span>
+
+                </div>
+                <div id="three">
+                    <span ><b>Address:</b></span>
+                    <span id="span3"></span>
+
+                </div>
+                <div id="four">
+                    <span ><b>Pincode:</b></span>
+                    <span id="span4"></span>
+
+                </div>
+                <div id="five">
+                    <span ><b>Gender:</b></span>
+                    <span id="span5"></span>
+
+                </div>
+                <div id="six">
+                    <span ><b>Food:</b></span>
+                    <span id="span6"></span>
+
+                </div>
+                <div id="seven">
+                    <span ><b>State:</b></span>
+                    <span id="span7"></span>
+
+                </div>
+                <div id="eight">
+                    <span ><b>Country:</b></span>
+                    <span id="span8"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script href="./script.js"></script>
+</body>
+
+</html>

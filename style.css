@@ -1,0 +1,173 @@
+@media(min-width:240px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-1 {
+        background-image: url(https://images.pexels.com/photos/2117938/pexels-photo-2117938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        background-position: left;
+        padding: 10px;
+        border-left:11px solid rgba(255, 0, 0, 0.87);
+        border-bottom: 11px solid rgba(255, 0, 0, 0.74);
+        border-top: 11px solid rgb(255, 0, 0);
+        width: 200px;
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+
+    }
+
+    #main-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .spans {
+        border-top: 11px solid rgba(38, 0, 255, 0.507);
+        border-bottom: 11px solid rgba(38, 0, 255, 0.507);
+        border-right: 11px solid rgba(38, 0, 255, 0.507);
+
+        background-image: url(https://images.pexels.com/photos/2117938/pexels-photo-2117938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+
+    }
+    #main-2{
+        width:1050px;
+        padding:30px;
+    }
+
+    #one{
+        display: inline;
+        padding: 25px;
+    }
+
+    #two{
+        display: inline;
+        padding: 25px;
+    }
+
+    #three{
+        display: inline;
+        padding: 25px;
+    }
+
+    #four{
+        display: inline;
+        padding: 25px;
+    }
+
+    #five{
+        display: inline;
+        padding: 25px;
+    }
+
+    #six{
+        display: inline;
+        padding: 25px;
+    }
+
+    #seven{
+        display: inline;
+        padding: 25px;
+    }
+
+    #eight{
+        display: inline;
+        padding: 25px;
+    }
+
+    #one {
+        background-color: rgba(219, 139, 170, 0);
+        color:  rgb(255, 196, 0);
+        width: 80px;
+    }
+    #one:hover {
+        color: red;
+        
+    }
+
+    #two{
+        background-color: rgba(109, 68, 88, 0);
+        color: rgb(255, 196, 0);
+        width: 80px;
+        }
+        #two:hover {
+            color: red;
+            
+         
+        }
+    
+        #three{
+            background-color: rgba(114, 33, 71, 0);
+            color:  rgb(255, 196, 0);
+            width: 80px;
+            }
+        #three:hover {
+           color: red;
+            
+        }
+
+        #four{
+            background-color: rgba(114, 33, 71, 0);
+            color:  rgb(255, 196, 0);
+            width: 80px;
+            }
+            #four:hover {
+                color: red;
+                
+            }
+
+
+            #five{
+                background-color: rgba(114, 33, 71, 0);
+                color:  rgb(255, 196, 0);
+                width: 80px;
+                }
+            #five:hover {
+                color: red;
+            
+            }
+
+
+            #six{
+                background-color: rgba(114, 33, 71, 0);
+                color:  rgb(255, 196, 0);
+                width: 80px;
+                }
+                #six:hover {
+                    color: red;
+                    
+                }
+
+
+                #seven{
+                    background-color: rgba(114, 33, 71, 0);
+                    color:  rgb(255, 196, 0);
+                    width: 80px;
+                    }
+                    #seven:hover {
+                        color: red;
+                        
+                    }
+                    #eight{
+                        background-color: rgba(114, 33, 71, 0);
+                        color:  rgb(255, 196, 0);
+                        width: 80px;
+                        }
+                        #eight:hover {
+                           color: rgb(250, 0, 0);
+                            
+                        }
+
+}
+
+        .form-group{
+            color: rgb(255, 123, 0);
+        }
+        #button{
+            margin-top: 10px;
+            border-color: aqua;
+            border-radius:1vh ;
+            box-shadow: 0 0px 20px rgb(255, 0, 0);
+        }
